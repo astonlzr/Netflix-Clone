@@ -1,0 +1,99 @@
+.header {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  height: 70px;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.left-section {
+  background-color: black;
+  width: 180px;
+}
+
+.logo {
+  margin: 0px;
+  width: 96px;
+  margin-left: 40px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.middle-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 530px;
+}
+
+.header-blank {
+  flex: 1;
+}
+
+.right-section {
+  width: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 36px;
+}
+
+.header-link {
+  font-family: Roboto, Arial;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(222, 222, 222);
+  cursor: pointer;
+  transition: font-weight 0.5s;
+}
+
+.header-link:hover {
+  font-weight: 600;
+  color: white;
+}
+
+.search-logo {
+  height: 28px;
+  cursor: pointer;
+}
+
+.notification-logo {
+  height: 24px;
+  cursor: pointer;
+}
+
+.notification-container {
+  position: relative;
+}
+
+.notification-count {
+  position: absolute;
+  top: -2px;
+  right: -6px;
+  background-color: rgb(198, 0, 0);
+  color: white;
+  font-family: Roboto;
+  padding: 1px 5px;
+  font-size: 12px;
+  border-radius: 100%;
+}
+
+.profile-pic {
+  height: 32px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sort-button {
+  height: 13px;
+  margin-left: -16px;
+  cursor: pointer;
+  position: relative;
+}

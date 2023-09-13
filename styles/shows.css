@@ -1,0 +1,34 @@
+.shows-column {
+  height: 160px;
+  margin: 30px;
+  display: inline-block;}
+
+h2 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: white;
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.show-thumbnail {
+  height: 130px;
+  display: flex;
+  align-items: center;
+}
+
+.show-layout {
+  display: flex;
+  margin: 15px 4px;
+}
+
+.show-dim {
+  height: 130px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: height 0.5s;
+}
+
+.show-dim:hover {
+  height: 180px;
+}
